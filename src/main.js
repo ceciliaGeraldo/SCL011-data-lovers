@@ -64,13 +64,8 @@ function createCard(data){
     pokemonType1.className = "tagType";
     pokemonType2.className = "tagType";
 
-<<<<<<< HEAD
     for(let j=0; j<data[i].type.length; j++){
         if(data[i].type[0] === 'Fire'){
-=======
-    for(let j=0; j<data[i].type[j]; j++){
-        if(data[i].type[0] || data[i].type[1]=== 'Fire'){
->>>>>>> 9f0c22edf8b57a716019029a4cd3fb0584040353
       pokemonType1.style.backgroundColor = "#F05030";
     }else if(data[i].type[0] === 'Bug'){
       pokemonType1.style.backgroundColor = "#A8B820";
